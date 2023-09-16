@@ -15,7 +15,12 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
+            <Image 
+              src="/images/landing_image.png"
+              height={720}
+              width={600}
+              alt="brainvault landing image"
+            />
           </div>
         </div>
       </section>
